@@ -25,10 +25,10 @@ self.addEventListener('activate', event =>
   )
 );
 
-self.addEventListener('fetch', event =>
-  event.respondWith(
-    caches.match(event.request).then(request =>
-      request || fetch(event.request)
-    )
-  )
-);
+self.addEventListener('fetch', event => {
+  const url = new URL(event.request.url);
+
+  if (url.origin === location.origin && URLS.includes(url.pathname)) {
+    event.respondWith(caches.match(event.request));
+  }
+});
