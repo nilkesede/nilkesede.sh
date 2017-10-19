@@ -1,7 +1,8 @@
-const VERSION = '0.0.3';
+const VERSION = '0.0.4';
 const URLS = [
   '/',
-  '/index.html'
+  '/index.html',
+  '/404.html'
 ];
 
 self.addEventListener('install', event =>
