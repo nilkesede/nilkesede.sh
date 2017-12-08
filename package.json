@@ -1,9 +1,10 @@
 {
   "name": "ksde.pw",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "devDependencies": {
-    "eslint": "4.9.0",
-    "eslint-config-xo-space": "0.16.0"
+    "eslint": "4.12.1",
+    "eslint-config-xo-space": "0.17.0",
+    "eslint-plugin-unicorn": "3.0.0"
   },
   "private": true
 }
