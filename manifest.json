@@ -1,21 +1,21 @@
-  {
-    "name": "Nil Késede",
-    "short_name": "Nil Késede",
-    "start_url": "/",
-    "display": "standalone",
-    "orientation": "portrait",
-    "theme_color": "#515558",
-    "background_color": "#515558",
-    "icons": [
-      {
-        "src": "/favicon-192.png",
-        "sizes": "192x192",
-        "type": "image/png"
-      },
-      {
-        "src": "/favicon-512.png",
-        "sizes": "512x512",
-        "type": "image/png"
-      }
-    ]
-  }
+{
+  "name": "nil késede",
+  "short_name": "nil késede",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "theme_color": "#515558",
+  "background_color": "#515558",
+  "icons": [
+    {
+      "src": "/favicon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/favicon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

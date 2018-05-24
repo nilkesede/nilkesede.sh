@@ -9,7 +9,7 @@
   <title>nil késede</title>
   <meta name="description" content="nil késede">
   <style>
-    * { margin: 0; padding: 0 }
+    * { margin: 0; padding: 0; }
     html, body {
       width: 100%;
       height: 100%;
@@ -24,8 +24,8 @@
 </head>
 <body>
 <div id="particles"></div>
-<script async defer src="//www.googletagmanager.com/gtag/js?id=UA-42613066-1"></script>
-<script async defer src="js/particles.min.js"></script>
+<script src="//www.googletagmanager.com/gtag/js?id=UA-42613066-1"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   const gtag = function () {dataLayer.push(arguments);};
@@ -33,7 +33,7 @@
   gtag('config', 'UA-42613066-1');
 
   window.addEventListener('load', () => {
-    particlesJS.load('particles', 'js/particles.json')
+    particlesJS.load('particles', '/particles.json');
     if ('serviceWorker' in navigator) {
       navigator.serviceWorker.register('/sw.js');
     }
