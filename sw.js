@@ -1,8 +1,9 @@
-const VERSION = '0.0.9';
+const VERSION = '0.0.10';
 const URLS = [
   '/',
   '/index.html',
-  '/404.html'
+  '/404.html',
+  '/particles.json'
 ];
 
 self.addEventListener('install', event =>
