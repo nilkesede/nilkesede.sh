@@ -1,10 +1,14 @@
 {
   "name": "ksde.pw",
-  "version": "0.0.12",
+  "version": "0.0.13",
+  "scripts": {
+    "build": "html-minifier -o index.html index.src.html -c ./html-minifier.json"
+  },
   "devDependencies": {
-    "eslint": "5.4.0",
+    "eslint": "5.8.0",
     "eslint-config-xo-space": "0.20.0",
-    "eslint-plugin-unicorn": "6.0.0"
+    "eslint-plugin-unicorn": "6.0.1",
+    "html-minifier": "^3.5.21"
   },
   "private": true
 }

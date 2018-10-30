@@ -1,8 +1,12 @@
-const VERSION = '0.0.12';
+const VERSION = '0.0.13';
 const URLS = [
   '/',
   '/index.html',
-  '/404.html'
+  '/404.html',
+  '/manifest.json',
+  '/favicon.ico',
+  '/favicon-192.png',
+  '/favicon-512.png'
 ];
 
 self.addEventListener('install', event =>
