@@ -23,16 +23,20 @@
       display: grid;
     }
     h1 {
-      color: #000;
-      font: 1rem 'Courier New', Courier, monospace;
-      text-rendering: optimizeLegibility;
-      -webkit-font-smoothing: antialiased;
       margin: auto;
+      font: 0/0 a;
+      color: transparent;
+      text-shadow: none;
+      background-color: transparent;
+      border: 0;
+    }
+    img {
+      width: 100px;
     }
   </style>
 </head>
 <body>
-<h1>nil késede</h1>
+<h1>nil késede<img src="img/spacer.gif" alt="nil késede" id="img"></h1>
 <script src="https://www.googletagmanager.com/gtag/js?id=UA-42613066-1"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -40,7 +44,10 @@
   gtag('js', new Date());
   gtag('config', 'UA-42613066-1');
 
+  const getRandomInt = max => String(Math.floor(Math.random() * Math.floor(max))).padStart(2, '0');
+
   window.addEventListener('load', () => {
+    document.getElementById('img').src = `img/alien-${getRandomInt(35)}.svg`;
     if ('serviceWorker' in navigator) {
       navigator.serviceWorker.register('/sw.js');
     }
