@@ -1,4 +1,4 @@
-const VERSION = '0.0.14';
+const VERSION = '0.0.15';
 const URLS = [
   '/',
   '/index.html',
@@ -7,6 +7,7 @@ const URLS = [
   '/favicon.ico',
   '/favicon-192.png',
   '/favicon-512.png',
+  '/img/spacer.gif',
   '/img/alien-00.svg',
   '/img/alien-01.svg',
   '/img/alien-02.svg',
