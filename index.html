@@ -12,6 +12,7 @@
     * {
       margin: 0;
       padding: 0;
+      border: 0;
       box-sizing: border-box;
     }
     html, body {
@@ -20,23 +21,29 @@
       overflow: hidden;
       background-color: #fff;
       position: relative;
-      display: grid;
+      font: 400 1rem/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+      color: #212529;
     }
     h1 {
-      margin: auto;
       font: 0/0 a;
       color: transparent;
       text-shadow: none;
       background-color: transparent;
-      border: 0;
     }
     img {
       width: 100px;
     }
+    .center {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
   </style>
 </head>
 <body>
-<h1>nil késede<img src="img/spacer.gif" alt="nil késede" id="img"></h1>
+<noscript class="center">we need js, dude</noscript>
+<h1 class="center">nil késede<img src="img/spacer.gif" alt="nil késede" id="img"></h1>
 <script src="https://www.googletagmanager.com/gtag/js?id=UA-42613066-1"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
