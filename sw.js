@@ -1,4 +1,4 @@
-const VERSION = '0.0.16';
+const VERSION = '0.0.17';
 const URLS = [
   '/',
   '/index.html',

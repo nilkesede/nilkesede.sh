@@ -46,15 +46,15 @@
 <h1 class="center">nil késede<img src="img/spacer.gif" alt="nil késede" id="img"></h1>
 <script src="https://www.googletagmanager.com/gtag/js?id=UA-42613066-1"></script>
 <script>
+  const getRandomInt = max => String(Math.floor(Math.random() * Math.floor(max))).padStart(2, '0');
+  document.getElementById('img').src = `img/alien-${getRandomInt(35)}.svg`;
+
   window.dataLayer = window.dataLayer || [];
   const gtag = function () {dataLayer.push(arguments);};
   gtag('js', new Date());
   gtag('config', 'UA-42613066-1');
 
-  const getRandomInt = max => String(Math.floor(Math.random() * Math.floor(max))).padStart(2, '0');
-
   window.addEventListener('load', () => {
-    document.getElementById('img').src = `img/alien-${getRandomInt(35)}.svg`;
     if ('serviceWorker' in navigator) {
       navigator.serviceWorker.register('/sw.js');
     }
