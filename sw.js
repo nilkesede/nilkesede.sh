@@ -1,4 +1,4 @@
-const VERSION = '0.0.18';
+const VERSION = '0.0.19';
 const URLS = [
   '/',
   '/index.html',
@@ -6,44 +6,7 @@ const URLS = [
   '/manifest.json',
   '/favicon.ico',
   '/favicon-192.png',
-  '/favicon-512.png',
-  '/img/spacer.gif',
-  '/img/alien-00.svg',
-  '/img/alien-01.svg',
-  '/img/alien-02.svg',
-  '/img/alien-03.svg',
-  '/img/alien-04.svg',
-  '/img/alien-05.svg',
-  '/img/alien-06.svg',
-  '/img/alien-07.svg',
-  '/img/alien-08.svg',
-  '/img/alien-09.svg',
-  '/img/alien-10.svg',
-  '/img/alien-11.svg',
-  '/img/alien-12.svg',
-  '/img/alien-13.svg',
-  '/img/alien-14.svg',
-  '/img/alien-15.svg',
-  '/img/alien-16.svg',
-  '/img/alien-17.svg',
-  '/img/alien-18.svg',
-  '/img/alien-19.svg',
-  '/img/alien-20.svg',
-  '/img/alien-21.svg',
-  '/img/alien-22.svg',
-  '/img/alien-23.svg',
-  '/img/alien-24.svg',
-  '/img/alien-25.svg',
-  '/img/alien-26.svg',
-  '/img/alien-27.svg',
-  '/img/alien-28.svg',
-  '/img/alien-29.svg',
-  '/img/alien-30.svg',
-  '/img/alien-31.svg',
-  '/img/alien-32.svg',
-  '/img/alien-33.svg',
-  '/img/alien-34.svg',
-  '/img/alien-35.svg'
+  '/favicon-512.png'
 ];
 
 self.addEventListener('install', event =>

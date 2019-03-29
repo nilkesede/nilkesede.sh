@@ -5,68 +5,76 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="manifest" href="/manifest.json">
-  <meta name="theme-color" content="#ffffff">
+  <meta name="theme-color" content="#222">
   <title>nil késede</title>
   <meta name="description" content="nil késede">
   <style>
-    * {
-      margin: 0;
-      padding: 0;
-      border: 0;
-      box-sizing: border-box;
+  * {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+  }
+  html, body {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+  }
+  body {
+    color: #eee;
+    background-color: #222;
+    font: 400 1rem/1.5 'Helvetica Neue', -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  }
+  a {
+    display: inline-block;
+    width: 100%;
+    color: #ccc;
+    text-decoration: none;
+    letter-spacing: 5px;
+    line-height: 250%;
+  }
+  .centralize {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .text-hide {
+    font: 0/0 a;
+    color: transparent;
+    text-shadow: none;
+    background-color: transparent;
+  }
+  @media (min-width: 576px) {
+    a {
+      width: auto;
+      padding: 0 10px;
     }
-    html, body {
-      width: 100%;
-      height: 100%;
-      overflow: hidden;
-      background-color: #fff;
-      position: relative;
-      font: 400 1rem/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-      color: #212529;
-    }
-    h1 {
-      font: 0/0 a;
-      color: transparent;
-      text-shadow: none;
-      background-color: transparent;
-    }
-    .center {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-    }
-    #alien {
-      width: 100px;
-      height: 100px;
-    }
-  </style>
+  }
+</style>
 </head>
 <body>
-<noscript class="center">we need js, dude</noscript>
-<h1 class="center">nil késede<img src="img/spacer.gif" alt="nil késede" id="alien"></h1>
-<script src="https://www.googletagmanager.com/gtag/js?id=UA-42613066-1"></script>
+<div class="centralize">
+  <h1 class="text-hide">nil késede</h1>
+  <a href="https://github.com/nilkesede" target="_blank" title="github">github</a>
+  <a href="mailto:nil@ksde.pw?subject=Hi" target="_blank" title="email">email</a>
+  <a href="https://twitter.com/nilkesede" target="_blank" title="twitter">twitter</a>
+  <a href="https://instagram.com/nilkesede" target="_blank" title="instagram">instagram</a>
+</div>
+<script async defer src="https://www.googletagmanager.com/gtag/js?id=UA-42613066-1"></script>
 <script>
-  var pad = function (string) {
-    return String('00' + string).slice(-2);
+window.dataLayer = window.dataLayer || [];
+var gtag = function () {dataLayer.push(arguments);};
+gtag('js', new Date());
+gtag('config', 'UA-42613066-1');
+window.addEventListener('load', function () {
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('/sw.js');
   }
-
-  var random = function (max) {
-    return String(Math.floor(Math.random() * Math.floor(max)));
-  }
-
-  document.getElementById('alien').src = 'img/alien-' + pad(random(35)) + '.svg';
-
-  window.dataLayer = window.dataLayer || [];
-  var gtag = function () {dataLayer.push(arguments);};
-  gtag('js', new Date());
-  gtag('config', 'UA-42613066-1');
-
-  window.addEventListener('load', function () {
-    if ('serviceWorker' in navigator) {
-      navigator.serviceWorker.register('/sw.js');
-    }
-  });
+});
 </script>
 </body>
 </html>
