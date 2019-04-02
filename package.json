@@ -1,8 +1,8 @@
 {
   "name": "ksde.pw",
-  "version": "0.0.19",
+  "version": "0.0.20",
   "devDependencies": {
-    "eslint": "5.15.3",
+    "eslint": "5.16.0",
     "eslint-config-xo-space": "0.21.0",
     "eslint-plugin-unicorn": "8.0.1"
   },
