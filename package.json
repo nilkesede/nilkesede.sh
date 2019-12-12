@@ -1,10 +1,42 @@
 {
   "name": "ksde.pw",
-  "version": "0.0.23",
-  "devDependencies": {
-    "eslint": "6.5.1",
-    "eslint-config-xo-space": "0.21.0",
-    "eslint-plugin-unicorn": "12.1.0"
+  "version": "0.1.0",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "export": "next export",
+    "test": "jest"
   },
-  "private": true
+  "dependencies": {
+    "next": "9.1.5",
+    "prop-types": "15.7.2",
+    "react": "16.12.0",
+    "react-dom": "16.12.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "10.0.3",
+    "enzyme": "3.10.0",
+    "enzyme-adapter-react-16": "1.15.1",
+    "eslint": "6.7.2",
+    "eslint-config-react-app": "5.1.0",
+    "eslint-config-xo-react": "0.20.0",
+    "eslint-config-xo-space": "0.22.0",
+    "eslint-plugin-flowtype": "4.5.2",
+    "eslint-plugin-import": "2.19.1",
+    "eslint-plugin-jsx-a11y": "6.2.3",
+    "eslint-plugin-react": "7.17.0",
+    "eslint-plugin-react-hooks": "2.3.0",
+    "eslint-plugin-unicorn": "14.0.1",
+    "jest": "24.9.0"
+  },
+  "engines": {
+    "node": ">=12",
+    "npm": ">=5"
+  },
+  "now": {
+    "alias": "ksde.pw.now.sh"
+  }
 }
