@@ -20,7 +20,7 @@ export default class Index extends Component {
           <a href="https://strava.com/athletes/nilkesede" target="_blank" rel="noopener noreferrer" title="strava">strava</a>
         </div>
 
-        <style global jsx>{`
+        <style jsx global>{`
         * {
           margin: 0;
           padding: 0;
@@ -38,6 +38,9 @@ export default class Index extends Component {
           background-color: #222;
           font: 400 1.3rem/1.5 'Roboto Mono', 'Lucida Console', Monaco, monospace;
         }
+        `}
+        </style>
+        <style jsx>{`
         a {
           display: inline-block;
           width: 100%;
@@ -60,7 +63,7 @@ export default class Index extends Component {
           text-shadow: none;
           background-color: transparent;
         }
-        @media (min-width: 576px) {
+        @media (min-width: 650px) {
           a {
             width: auto;
             padding: 0 10px;
