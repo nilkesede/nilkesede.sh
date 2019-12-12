@@ -10,8 +10,7 @@ export default class Index extends Component {
       <div>
         <Head title={title} description={description}/>
 
-        <h1>{title}</h1>
-        <p>{description}</p>
+        <h1>resume</h1>
       </div>
     );
   }

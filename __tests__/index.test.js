@@ -2,20 +2,22 @@ import React from 'react';
 import Enzyme, {shallow} from 'enzyme';
 import Adapter from 'enzyme-adapter-react-16';
 
-import Index from '../pages';
+import Index from '../src/pages';
 
 Enzyme.configure({adapter: new Adapter()});
 
 describe('on Index', () => {
-  it('shows the app title', () => {
-    const index = shallow(<Index/>);
+  const index = shallow(<Index/>);
 
-    expect(index.find('h1').text()).toEqual('Nil Késede');
+  it('shows the app title', () => {
+    expect(index.find('h1').text()).toEqual('nil késede');
   });
 
-  it('shows the app description', () => {
-    const index = shallow(<Index/>);
-
-    expect(index.find('p').text()).toEqual('The Nil Késede\'s website!');
+  it('shows the network links', () => {
+    expect(index.find('a[title="email"]').prop('href')).toEqual('mailto:nil@ksde.pw?subject=Hi');
+    expect(index.find('a[title="github"]').prop('href')).toEqual('https://github.com/nilkesede');
+    expect(index.find('a[title="twitter"]').prop('href')).toEqual('https://twitter.com/nilkesede');
+    expect(index.find('a[title="instagram"]').prop('href')).toEqual('https://instagram.com/nilkesede');
+    expect(index.find('a[title="strava"]').prop('href')).toEqual('https://strava.com/athletes/nilkesede');
   });
 });
