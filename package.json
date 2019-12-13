@@ -8,7 +8,7 @@
     "build": "next build",
     "start": "next start",
     "export": "next export",
-    "test": "jest"
+    "test": "eslint src && jest"
   },
   "dependencies": {
     "next": "9.1.5",
