@@ -3,14 +3,13 @@ import NextHead from 'next/head';
 import {string} from 'prop-types';
 
 export default class Head extends Component {
-  static defaultProps = {
-    title: '',
-    description: ''
+  static propTypes = {
+    title: string.isRequired,
+    description: string
   };
 
-  static propTypes = {
-    title: string,
-    description: string
+  static defaultProps = {
+    description: ''
   };
 
   render() {

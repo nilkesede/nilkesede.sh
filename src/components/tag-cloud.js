@@ -1,13 +1,12 @@
 import React, {Component} from 'react';
-import {array} from 'prop-types';
+import {arrayOf, shape, string, number} from 'prop-types';
 
 export default class TagCloud extends Component {
-  static defaultProps = {
-    tags: ''
-  };
-
   static propTypes = {
-    tags: array
+    tags: arrayOf(shape({
+      title: string.isRequired,
+      weight: number.isRequired
+    })).isRequired
   };
 
   render() {
