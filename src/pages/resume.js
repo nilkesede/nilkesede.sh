@@ -60,7 +60,7 @@ export default class Index extends Component {
       <div className="container">
         <Head title={title} description={description}/>
 
-        <header>
+        <header className="contact-info">
           <h1>Nil Késede</h1>
           <h2>Desenvolvedor Web Pleno</h2>
           <p>Fortaleza, Ceará, Brasil</p>
@@ -69,17 +69,17 @@ export default class Index extends Component {
           <p><a href="/" target="_blank" rel="noopener noreferrer" title="ksde.pw">ksde.pw</a></p>
         </header>
 
-        <section>
+        <section className="description">
           {/* eslint-disable-next-line react/no-danger  */}
           <p dangerouslySetInnerHTML={{__html: description}}/>
         </section>
 
-        <section>
+        <section className="skills">
           <h3>Habilidades</h3>
           <TagCloud tags={skills}/>
         </section>
 
-        <section>
+        <section className="previous-jobs">
           <h3>Experiência</h3>
           <p>Docner Software<br/>Frontend Developer<br/>jul de 2019 – dez de 2019</p>
           <p>Jetro Tecnologia<br/>Full Stack Developer<br/>mai de 2017 – jun de 2019</p>
@@ -87,7 +87,7 @@ export default class Index extends Component {
           <p>Briba Design<br/>Full Stack Developer<br/>set de 2011 – jan de 2017</p>
         </section>
 
-        <section>
+        <section className="formation">
           <h3>Formação acadêmica</h3>
           <p>Instituto Federal de Educação, Ciência e Tecnologia do Ceará<br/>Tecnologia da Informação - Telemática<br/>2016 – 2019</p>
           <p>EEEP Juarez Távora<br/>Ensino Médio Técnico Integrado - Informática<br/>2009 – 2011</p>
