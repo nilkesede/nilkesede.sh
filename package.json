@@ -4,14 +4,15 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "node server",
     "build": "next build",
     "start": "next start",
     "export": "next export",
     "test": "eslint src && eslint __tests__ && jest"
   },
   "dependencies": {
-    "next": "9.1.5",
+    "next": "9.1.6",
+    "next-offline": "beta",
     "prop-types": "15.7.2",
     "react": "16.12.0",
     "react-dom": "16.12.0"
