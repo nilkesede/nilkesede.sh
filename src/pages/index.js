@@ -4,7 +4,7 @@ import Head from '../components/head';
 export default class Index extends Component {
   render() {
     const title = 'Home | Nil Késede';
-    const description = 'I&#39;m a software engineer since 2011 with experience in both back-end and front-end web development.';
+    const description = 'Software engineer since 2011 with experience in both back-end and front-end web development.';
 
     return (
       <div className="container">

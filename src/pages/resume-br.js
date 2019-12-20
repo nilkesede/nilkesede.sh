@@ -5,8 +5,8 @@ import skills from '../lib/skills';
 
 export default class Index extends Component {
   render() {
-    const title = 'Resume | Nil Késede';
-    const description = 'Software engineer since 2011 with experience in both back-end and front-end web development.';
+    const title = 'Currículo | Nil Késede';
+    const description = 'Engenheiro de software desde 2011 com experiência em desenvolvimento web tanto back-end quanto front-end.';
 
     return (
       <div className="container">
@@ -24,43 +24,43 @@ export default class Index extends Component {
           </header>
 
           <section className="description col-xs-12 col-sm-8 first-sm">
-            <p>I&#39;m a software engineer since 2011 with experience in both back-end and front-end web development.</p>
-            <p>Focused on creating and contribute to high availability apps and improve the user experience with modern tech stacks.</p>
-            <p>I&#39;m always looking for new knowledge and best practices in software development.</p>
+            <p>Sou engenheiro de software desde 2011, com experiência em desenvolvimento web back-end e front-end.</p>
+            <p>Focado em criar e contribuir para aplicativos de alta disponibilidade e aprimorar a experiência do usuário com tecnologia modernas.</p>
+            <p>Estou sempre procurando novos conhecimentos e melhores práticas em desenvolvimento de software.</p>
           </section>
 
           <section className="skills col-xs-12">
-            <h3>Skills</h3>
+            <h3>Habilidades</h3>
             <TagCloud tags={skills}/>
           </section>
 
           <section className="experience col-xs-12">
-            <h3>Experience</h3>
+            <h3>Experiência</h3>
             <p>
-              <b>Docner Software | jul 2019 – dec 2019</b><br/>{' '}
-              Worked on international projects as front-end developer, maintaining and implementing new features.<br/>{' '}
-              I also worked on stories based on the core system developed in Java.
+              <b>Docner Software | jul 2019 – dez 2019</b><br/>{' '}
+              Trabalhei em projetos internacionais como desenvolvedor front-end, mantendo e implementando novos recursos.
+              Também trabalhei em stories do core desenvolvido em Java.
             </p>
             <p>
-              <b>Jetro Tecnologia | may 2017 - jun de 2019</b><br/>{' '}
-              I&#39;d been there working on each layer in all the internal projects as full-stack developer, even simple and performer websites to entire ERP with API integrations.<br/>{' '}
-              The stack includes techs like AngularJS, VueJS, NodeJS, PHP, Delphi, Object Pascal and PostgreSQL.
+              <b>Jetro Tecnologia | mai 2017 - jun de 2019</b><br/>{' '}
+              Estive lá trabalhando em todas as camadas nos projetos internos, como desenvolvedor full-stack, desdes sites simples e de alto desempenho até ERP com integrações de API.
+              As tecnologias usadas foram AngularJS, VueJS, NodeJS, PHP, Delphi, Object Pascal e PostgreSQL.
             </p>
             <p>
-              <b>Aim Comunicação | jan 2017 - apr 2017</b><br/>{' '}
-              I joined the team to meet the instant demand, implementing WordPress themes, maintaining systems with Laravel and Magento e-commerces.
+              <b>Aim Comunicação | jan 2017 - abr 2017</b><br/>{' '}
+              Entrei para a equipe para atender à demanda instantânea, implementando temas WordPress, mantendo sistemas Laravel e e-commerces Magento.
             </p>
             <p>
-              <b>Briba Design | sep 2011 - dec 2016</b><br/>{' '}
-              I started my professional career in a web agency building layouts with HTML, CSS,  JavaScript and implementing them as themes for WordPress and a proprietary CMS.<br/>{' '}
-              I participated in the creation of blogs, institutional websites, and e-commerce, worked on optimizing the CMS made with Classic ASP and led the migration of this CMS to PHP and open source technologies, as well as doing some maintenance and improvements on Android apps.
+              <b>Briba Design | set 2011 - dez 2016</b><br/>{' '}
+              Comecei minha carreira profissional em uma agência web criando layouts com HTML, CSS, JavaScript e implementando-os como temas para WordPress e um CMS proprietário.<br/>{' '}
+              Participei da criação de blogs, sites institucionais e e-commerces, trabalhei na otimização do CMS feito com o ASP clássico e conduzi a migração desse CMS para PHP e tecnologias de código aberto, além de fazer algumas manutenções e melhorias em aplicativos Android.
             </p>
           </section>
 
           <section className="education col-xs-12">
-            <h3>Education</h3>
-            <p>Instituto Federal de Educação, Ciência e Tecnologia do Ceará<br/>Associate Degree - Telematics<br/>2016 – 2019</p>
-            <p>EEEP Juarez Távora<br/>Integrated High School - Informatics<br/>2009 – 2011</p>
+            <h3>Educação</h3>
+            <p>Instituto Federal de Educação, Ciência e Tecnologia do Ceará<br/>Tecnologia da Informação - Telemática<br/>2016 – 2019</p>
+            <p>EEEP Juarez Távora<br/>Ensino Médio Técnico Integrado - Informática<br/>2009 – 2011</p>
           </section>
         </div>
 
