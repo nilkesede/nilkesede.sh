@@ -11,9 +11,11 @@
     "test": "eslint src && eslint __tests__ && jest"
   },
   "dependencies": {
+    "@zeit/next-sass": "1.0.1",
     "next": "9.1.6",
     "next-ga": "2.3.4",
     "next-offline": "beta",
+    "node-sass": "4.13.0",
     "prop-types": "15.7.2",
     "react": "16.12.0",
     "react-dom": "16.12.0"
@@ -40,5 +42,10 @@
   },
   "now": {
     "alias": "ksde.pw.now.sh"
-  }
+  },
+  "jest":{
+    "moduleNameMapper":{
+      "\\.(css|less|sass|scss)$": "<rootDir>/__mocks__/styles-mock.js"
+    }
+ }
 }

@@ -1,9 +1,10 @@
 const withOffline = require('next-offline');
+const withSass = require('@zeit/next-sass');
 
 const nextConfig = {
   target: 'serverless',
   transformManifest: manifest => ['/'].concat(manifest),
-  generateInDevMode: true,
+  generateInDevMode: false,
   workboxOpts: {
     swDest: 'static/service-worker.js',
     runtimeCaching: [
@@ -26,4 +27,4 @@ const nextConfig = {
   }
 };
 
-module.exports = withOffline(nextConfig);
+module.exports = withSass(withOffline(nextConfig));
