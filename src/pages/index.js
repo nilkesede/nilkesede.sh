@@ -15,6 +15,7 @@ export default class Index extends Component {
         <div className="centralize">
           <a href="mailto:nil@ksde.pw?subject=Hi" target="_blank" rel="noopener noreferrer" title="email">email</a>
           <a href="https://github.com/nilkesede" target="_blank" rel="noopener noreferrer" title="github">github</a>
+          <a href="https://linkedin.com/in/nilkesede" target="_blank" rel="noopener noreferrer" title="linkedin">linkedin</a>
           <a href="https://twitter.com/nilkesede" target="_blank" rel="noopener noreferrer" title="twitter">twitter</a>
           <a href="https://instagram.com/nilkesede" target="_blank" rel="noopener noreferrer" title="instagram">instagram</a>
           <a href="https://strava.com/athletes/nilkesede" target="_blank" rel="noopener noreferrer" title="strava">strava</a>
@@ -48,7 +49,7 @@ export default class Index extends Component {
           transform: translate(-50%, -50%);
           text-align: center;
         }
-        @media (min-width: 650px) {
+        @media (min-width: 750px) {
           a {
             width: auto;
             padding: 0 10px;
