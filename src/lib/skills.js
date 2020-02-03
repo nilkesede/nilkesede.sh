@@ -1,5 +1,5 @@
 export default [
-  {title: 'Angular', weight: 5},
+  {title: 'Angular', weight: 3},
   {title: 'AWS', weight: 2},
   {title: 'Bootstrap', weight: 2},
   {title: 'CakePHP', weight: 2},
@@ -18,7 +18,7 @@ export default [
   {title: 'jQuery', weight: 3},
   {title: 'Laravel', weight: 5},
   {title: 'LESS', weight: 3},
-  {title: 'MongoDB', weight: 3},
+  {title: 'MongoDB', weight: 4},
   {title: 'MySQL', weight: 3},
   {title: 'Nginx', weight: 2},
   {title: 'NodeJS', weight: 5},
@@ -27,6 +27,7 @@ export default [
   {title: 'PHP', weight: 5},
   {title: 'PostgreSQL', weight: 3},
   {title: 'React', weight: 5},
+  {title: 'React Native', weight: 5},
   {title: 'SASS', weight: 4},
   {title: 'SEO', weight: 2},
   {title: 'TDD', weight: 5},
