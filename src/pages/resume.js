@@ -24,9 +24,8 @@ export default class Index extends Component {
           </header>
 
           <section className="description col-xs-12 col-sm-8 first-sm">
-            <p>I&#39;m a software engineer since 2011 with experience in both back-end and front-end web development.</p>
-            <p>Focused on creating and contribute to high availability apps and improve the user experience with modern tech stacks.</p>
-            <p>I&#39;m always looking for new knowledge and best practices in software development.</p>
+            <p>I&#39;m a software engineer since 2011 with experience in both front-end and back-end web and mobile development.</p>
+            <p>Focused on creating and contribute to high availability apps and improve the user experience with modern tech stacks, I&#39;m always looking for new knowledge and best practices in software development.</p>
           </section>
 
           <section className="skills col-xs-12">
@@ -37,9 +36,9 @@ export default class Index extends Component {
           <section className="experience col-xs-12">
             <h3>Experience</h3>
             <p>
-              <b>Docner Software | jul 2019 – dec 2019</b><br/>{' '}
+              <b>Docner Software | jul 2019 – jan 2020</b><br/>{' '}
               Worked on international projects as front-end developer, maintaining and implementing new features.<br/>{' '}
-              I also worked on stories based on the core system developed in Java.
+              React, React Native, GraphQL, NodeJS, MongoDB.
             </p>
             <p>
               <b>Jetro Tecnologia | may 2017 - jun de 2019</b><br/>{' '}
@@ -47,20 +46,10 @@ export default class Index extends Component {
               The stack includes techs like AngularJS, VueJS, NodeJS, PHP, Delphi, Object Pascal and PostgreSQL.
             </p>
             <p>
-              <b>Aim Comunicação | jan 2017 - apr 2017</b><br/>{' '}
-              I joined the team to meet the instant demand, implementing WordPress themes, maintaining systems with Laravel and Magento e-commerces.
-            </p>
-            <p>
-              <b>Briba Design | sep 2011 - dec 2016</b><br/>{' '}
-              I started my professional career in a web agency building layouts with HTML, CSS,  JavaScript and implementing them as themes for WordPress and a proprietary CMS.<br/>{' '}
+              <b>Briba Design | sep 2011 - jan 2017</b><br/>{' '}
+              I started my professional career in a web agency building layouts with HTML, CSS, JavaScript and implementing them as themes for WordPress and a proprietary CMS.<br/>{' '}
               I participated in the creation of blogs, institutional websites, and e-commerce, worked on optimizing the CMS made with Classic ASP and led the migration of this CMS to PHP and open source technologies, as well as doing some maintenance and improvements on Android apps.
             </p>
-          </section>
-
-          <section className="education col-xs-12">
-            <h3>Education</h3>
-            <p>Instituto Federal de Educação, Ciência e Tecnologia do Ceará<br/>Associate Degree - Telematics<br/>2016 – 2019</p>
-            <p>EEEP Juarez Távora<br/>Integrated High School - Informatics<br/>2009 – 2011</p>
           </section>
         </div>
 
@@ -87,6 +76,9 @@ export default class Index extends Component {
         }
         section h3 {
           border-bottom: 1px solid black;
+        }
+        section p {
+          text-align: justify;
         }
         .skills {
           margin-bottom: 17px;

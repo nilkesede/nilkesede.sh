@@ -22,12 +22,12 @@ export default class TagCloud extends Component {
 
         <style jsx>{`
         .container { margin: 0 -10px; }
-        span { padding: 0 10px; float: left; line-height: 30px; }
+        span { padding: 0 10px; float: left; line-height: 45px; }
         .weight-1 { font-size: .8em; }
-        .weight-2 { font-size: 1em; }
-        .weight-3 { font-size: 1.2em; }
-        .weight-4 { font-size: 1.4em; }
-        .weight-5 { font-size: 1.6em; }
+        .weight-2 { font-size: 1.1em; }
+        .weight-3 { font-size: 1.4em; }
+        .weight-4 { font-size: 1.7em; }
+        .weight-5 { font-size: 2em; }
         .clearfix:after {
           content: ".";
           display: block;

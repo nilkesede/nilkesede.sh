@@ -24,9 +24,11 @@ export default class Index extends Component {
           </header>
 
           <section className="description col-xs-12 col-sm-8 first-sm">
-            <p>Sou engenheiro de software desde 2011, com experiência em desenvolvimento web back-end e front-end.</p>
-            <p>Focado em criar e contribuir para aplicativos de alta disponibilidade e aprimorar a experiência do usuário com tecnologia modernas.</p>
-            <p>Estou sempre procurando novos conhecimentos e melhores práticas em desenvolvimento de software.</p>
+            <p>Sou engenheiro de software desde 2011, com experiência em desenvolvimento mobile e web no front-end e back-end.</p>
+            <p>
+              Focado em criar e contribuir para aplicativos de alta disponibilidade e aprimorar a experiência do usuário com tecnologia modernas,
+              estou sempre procurando novos conhecimentos e melhores práticas em desenvolvimento de software.
+            </p>
           </section>
 
           <section className="skills col-xs-12">
@@ -37,9 +39,9 @@ export default class Index extends Component {
           <section className="experience col-xs-12">
             <h3>Experiência</h3>
             <p>
-              <b>Docner Software | jul 2019 – dez 2019</b><br/>{' '}
+              <b>Docner Software | jul 2019 – jan 2020</b><br/>{' '}
               Trabalhei em projetos internacionais como desenvolvedor front-end, mantendo e implementando novos recursos.
-              Também trabalhei em stories do core desenvolvido em Java.
+              React, React Native, GraphQL, NodeJS, MongoDB.
             </p>
             <p>
               <b>Jetro Tecnologia | mai 2017 - jun de 2019</b><br/>{' '}
@@ -47,20 +49,10 @@ export default class Index extends Component {
               As tecnologias usadas foram AngularJS, VueJS, NodeJS, PHP, Delphi, Object Pascal e PostgreSQL.
             </p>
             <p>
-              <b>Aim Comunicação | jan 2017 - abr 2017</b><br/>{' '}
-              Entrei para a equipe para atender à demanda instantânea, implementando temas WordPress, mantendo sistemas Laravel e e-commerces Magento.
-            </p>
-            <p>
-              <b>Briba Design | set 2011 - dez 2016</b><br/>{' '}
+              <b>Briba Design | set 2011 - jan 2017</b><br/>{' '}
               Comecei minha carreira profissional em uma agência web criando layouts com HTML, CSS, JavaScript e implementando-os como temas para WordPress e um CMS proprietário.<br/>{' '}
               Participei da criação de blogs, sites institucionais e e-commerces, trabalhei na otimização do CMS feito com o ASP clássico e conduzi a migração desse CMS para PHP e tecnologias de código aberto, além de fazer algumas manutenções e melhorias em aplicativos Android.
             </p>
-          </section>
-
-          <section className="education col-xs-12">
-            <h3>Educação</h3>
-            <p>Instituto Federal de Educação, Ciência e Tecnologia do Ceará<br/>Tecnologia da Informação - Telemática<br/>2016 – 2019</p>
-            <p>EEEP Juarez Távora<br/>Ensino Médio Técnico Integrado - Informática<br/>2009 – 2011</p>
           </section>
         </div>
 
