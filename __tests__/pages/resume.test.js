@@ -29,8 +29,4 @@ describe('Resume', () => {
   it('should have a previous jobs section', () => {
     expect(resume.find('section.experience').exists()).toBeTruthy();
   });
-
-  it('should have a formation section', () => {
-    expect(resume.find('section.education').exists()).toBeTruthy();
-  });
 });
