@@ -30,6 +30,7 @@ export default [
   {title: 'React', weight: 5},
   {title: 'React Native', weight: 5},
   {title: 'SASS', weight: 1},
+  {title: 'Scrum', weight: 4},
   {title: 'SEO', weight: 1},
   {title: 'TDD', weight: 5},
   {title: 'TypeScript', weight: 5},
