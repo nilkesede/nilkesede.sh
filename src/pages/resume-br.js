@@ -26,7 +26,7 @@ export default class Index extends Component {
           <section className="description col-xs-12 col-sm-8 first-sm">
             <p>Sou engenheiro de software desde 2011, com experiência em desenvolvimento mobile e web no front-end e back-end.</p>
             <p>
-              Focado em criar e contribuir para aplicativos de alta disponibilidade e aprimorar a experiência do usuário com tecnologia modernas,
+              Focado em criar e contribuir para aplicativos de alta disponibilidade e aprimorar a experiência do usuário com tecnologias modernas,
               estou sempre procurando novos conhecimentos e melhores práticas em desenvolvimento de software.
             </p>
           </section>
