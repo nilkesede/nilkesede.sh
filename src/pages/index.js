@@ -13,7 +13,7 @@ export default class Index extends Component {
         <h1 className="text-hide">nil késede</h1>
 
         <div className="centralize">
-          <a href="mailto:nil@ksde.pw?subject=Hi" target="_blank" rel="noopener noreferrer" title="email">email</a>
+          <a href="mailto:me@nilkesede.sh?subject=Hi" target="_blank" rel="noopener noreferrer" title="email">email</a>
           <a href="https://github.com/nilkesede" target="_blank" rel="noopener noreferrer" title="github">github</a>
           <a href="https://linkedin.com/in/nilkesede" target="_blank" rel="noopener noreferrer" title="linkedin">linkedin</a>
           <a href="https://twitter.com/nilkesede" target="_blank" rel="noopener noreferrer" title="twitter">twitter</a>
