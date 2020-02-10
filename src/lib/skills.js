@@ -27,7 +27,7 @@ export default [
   {title: 'Photoshop', weight: 1},
   {title: 'PHP', weight: 3},
   {title: 'PostgreSQL', weight: 3},
-  {title: 'React', weight: 5},
+  {title: 'ReactJS', weight: 5},
   {title: 'React Native', weight: 5},
   {title: 'SASS', weight: 1},
   {title: 'Scrum', weight: 4},
