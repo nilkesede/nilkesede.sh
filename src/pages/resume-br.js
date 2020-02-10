@@ -45,7 +45,7 @@ export default class Index extends Component {
             </p>
             <p>
               <b>Jetro Tecnologia | mai 2017 - jun de 2019</b><br/>{' '}
-              Estive lá trabalhando em todas as camadas nos projetos internos, como desenvolvedor full-stack, desdes sites simples e de alto desempenho até ERP com integrações de API.
+              Estive lá trabalhando em todas as camadas nos projetos internos, como desenvolvedor full-stack, desde sites simples e de alto desempenho até ERP com integrações de API.
               As tecnologias usadas foram AngularJS, VueJS, NodeJS, PHP, Delphi, Object Pascal e PostgreSQL.
             </p>
             <p>
