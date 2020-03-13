@@ -1,12 +1,19 @@
 import React from 'react';
 import Router from 'next/router';
 import withGA from 'next-ga';
+import {ThemeProvider} from 'styled-components';
 import {elementType, object} from 'prop-types';
 
 import '../styles/main.scss';
 
+import {theme} from '../../config';
+
 const MyApp = ({Component, pageProps}) => {
-  return <Component {...pageProps}/>;
+  return (
+    <ThemeProvider theme={theme}>
+      <Component {...pageProps}/>
+    </ThemeProvider>
+  );
 };
 
 MyApp.propTypes = {
