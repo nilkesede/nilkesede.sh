@@ -1,13 +1,17 @@
 import React from 'react';
-import App from 'next/app';
 import Router from 'next/router';
 import withGA from 'next-ga';
+import {elementType, object} from 'prop-types';
 
-class MyApp extends App {
-  render() {
-    const {Component, pageProps} = this.props;
-    return <Component {...pageProps}/>;
-  }
-}
+import '../styles/main.scss';
+
+const MyApp = ({Component, pageProps}) => {
+  return <Component {...pageProps}/>;
+};
+
+MyApp.propTypes = {
+  Component: elementType,
+  pageProps: object
+};
 
 export default withGA('UA-42613066-1', Router)(MyApp);

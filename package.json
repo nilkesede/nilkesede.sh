@@ -13,19 +13,18 @@
     "build-storybook": "build-storybook"
   },
   "dependencies": {
-    "@zeit/next-sass": "1.0.1",
     "next": "9.3.0",
     "next-ga": "2.3.4",
     "next-offline": "beta",
-    "node-sass": "4.13.1",
     "prop-types": "15.7.2",
     "react": "16.13.0",
-    "react-dom": "16.13.0"
+    "react-dom": "16.13.0",
+    "sass": "1.26.3"
   },
   "devDependencies": {
     "@babel/core": "7.8.7",
     "@storybook/addon-actions": "5.3.14",
-    "@storybook/addon-knobs": "^5.3.14",
+    "@storybook/addon-knobs": "5.3.14",
     "@storybook/addon-links": "5.3.14",
     "@storybook/addons": "5.3.14",
     "@storybook/react": "5.3.14",

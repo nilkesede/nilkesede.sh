@@ -1,7 +1,6 @@
 import React, {Component} from 'react';
 import NextHead from 'next/head';
 import {string} from 'prop-types';
-import '../styles/main.scss';
 
 export default class Head extends Component {
   static propTypes = {
