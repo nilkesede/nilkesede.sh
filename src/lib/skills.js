@@ -40,4 +40,4 @@ export default [
   {title: 'Webpack', weight: 1},
   {title: 'Wordpress', weight: 1},
   {title: 'ZendFramework', weight: 1}
-];
+]

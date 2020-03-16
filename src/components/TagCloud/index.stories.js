@@ -1,8 +1,7 @@
-import React from 'react';
-import {storiesOf} from '@storybook/react';
+import {storiesOf} from '@storybook/react'
 
-import TagCloud from './tag-cloud';
-import skills from '../lib/skills';
+import TagCloud from './tag-cloud'
+import skills from '../lib/skills'
 
 storiesOf('UI|TagCloud', module)
   .addDecorator(story => (
@@ -10,4 +9,4 @@ storiesOf('UI|TagCloud', module)
   ))
   .add('default', () => (
     <TagCloud tags={skills}/>
-  ));
+  ))

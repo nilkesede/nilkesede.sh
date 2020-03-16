@@ -6,4 +6,4 @@ module.exports = {
     '@storybook/addon-knobs',
     '@storybook/preset-scss'
   ]
-};
+}

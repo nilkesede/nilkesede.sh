@@ -1,27 +1,24 @@
-import React, {Component} from 'react';
-import Head from '../components/head';
+import {Head} from '../components'
 
-export default class Index extends Component {
-  render() {
-    const title = 'Home | Nil Késede';
-    const description = 'Software engineer since 2011 with experience in both back-end and front-end web development.';
+const title = 'Home | Nil Késede'
+const description = 'Software engineer since 2011 with experience in both back-end and front-end web development.'
 
-    return (
-      <div className="container">
-        <Head title={title} description={description}/>
+const Index = () => (
+  <div className="container">
+    <Head title={title} description={description}/>
 
-        <h1 className="text-hide">nil késede</h1>
+    <h1 className="text-hide">nil késede</h1>
 
-        <div className="centralize">
-          <a href="mailto:me@nilkesede.sh?subject=Hi" target="_blank" rel="noopener noreferrer" title="email">email</a>
-          <a href="https://github.com/nilkesede" target="_blank" rel="noopener noreferrer" title="github">github</a>
-          <a href="https://linkedin.com/in/nilkesede" target="_blank" rel="noopener noreferrer" title="linkedin">linkedin</a>
-          <a href="https://twitter.com/nilkesede" target="_blank" rel="noopener noreferrer" title="twitter">twitter</a>
-          <a href="https://instagram.com/nilkesede" target="_blank" rel="noopener noreferrer" title="instagram">instagram</a>
-          <a href="https://strava.com/athletes/nilkesede" target="_blank" rel="noopener noreferrer" title="strava">strava</a>
-        </div>
+    <div className="centralize">
+      <a href="mailto:me@nilkesede.sh?subject=Hi" target="_blank" rel="noopener noreferrer" title="email">email</a>
+      <a href="https://github.com/nilkesede" target="_blank" rel="noopener noreferrer" title="github">github</a>
+      <a href="https://linkedin.com/in/nilkesede" target="_blank" rel="noopener noreferrer" title="linkedin">linkedin</a>
+      <a href="https://twitter.com/nilkesede" target="_blank" rel="noopener noreferrer" title="twitter">twitter</a>
+      <a href="https://instagram.com/nilkesede" target="_blank" rel="noopener noreferrer" title="instagram">instagram</a>
+      <a href="https://strava.com/athletes/nilkesede" target="_blank" rel="noopener noreferrer" title="strava">strava</a>
+    </div>
 
-        <style jsx global>{`
+    <style jsx global>{`
         html, body, #__next, .container {
           width: 100%;
           height: 100%;
@@ -30,8 +27,8 @@ export default class Index extends Component {
           background-color: #222;
         }
         `}
-        </style>
-        <style jsx>{`
+    </style>
+    <style jsx>{`
         a {
           width: 100%;
           color: #ccc;
@@ -56,8 +53,8 @@ export default class Index extends Component {
           }
         }
         `}
-        </style>
-      </div>
-    );
-  }
-}
+    </style>
+  </div>
+)
+
+export default Index
