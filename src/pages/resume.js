@@ -15,8 +15,8 @@ const Resume = () => (
         +55 85 99661 8021<br/>
         <a href="https://linkedin.com/in/nilkesede" target="_blank" rel="noopener noreferrer" title="LinkedIn">linkedin.com/in/nilkesede</a><br/>
         <a href="https://github.com/nilkesede" target="_blank" rel="noopener noreferrer" title="GitHub">github.com/nilkesede</a><br/>
-        <a href="mailto:me@nilkesede.sh?subject=Hi" target="_blank" rel="noopener noreferrer" title="email">me@nilkesede.sh</a><br/>
-        <a href="/" target="_blank" rel="noopener noreferrer" title="nilkesede.sh">nilkesede.sh</a><br/>
+        <a href="mailto:nil@ksde.pw" target="_blank" rel="noopener noreferrer" title="email">nil@ksde.pw</a><br/>
+        <a href="/" target="_blank" rel="noopener noreferrer" title="ksde.pw">ksde.pw</a><br/>
       </header>
 
       <section className="description col-xs-12 col-sm-8 first-sm">
