@@ -1,5 +1,9 @@
 {
     "builds": [
         {"src": "*", "use": "@now/static"}
+    ],
+    "routes": [
+        {"handle": "filesystem"},
+        {"src": "/(.*)", "status": 404, "dest": "/index.html"}
     ]
 }
