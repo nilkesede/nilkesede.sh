@@ -13,7 +13,7 @@
     "build-storybook": "build-storybook"
   },
   "dependencies": {
-    "next": "9.3.3",
+    "next": "9.3.4",
     "next-ga": "2.3.4",
     "next-offline": "beta",
     "prop-types": "15.7.2",
@@ -24,12 +24,12 @@
   },
   "devDependencies": {
     "@babel/core": "7.9.0",
-    "@storybook/addon-actions": "5.3.17",
-    "@storybook/addon-knobs": "5.3.17",
-    "@storybook/addon-links": "5.3.17",
-    "@storybook/addons": "5.3.17",
+    "@storybook/addon-actions": "5.3.18",
+    "@storybook/addon-knobs": "5.3.18",
+    "@storybook/addon-links": "5.3.18",
+    "@storybook/addons": "5.3.18",
     "@storybook/preset-scss": "^1.0.2",
-    "@storybook/react": "5.3.17",
+    "@storybook/react": "5.3.18",
     "babel-eslint": "10.1.0",
     "babel-loader": "8.1.0",
     "enzyme": "3.11.0",
@@ -44,7 +44,7 @@
     "eslint-plugin-react": "7.19.0",
     "eslint-plugin-react-hooks": "3.0.0",
     "eslint-plugin-unicorn": "18.0.1",
-    "jest": "25.2.4"
+    "jest": "25.2.7"
   },
   "engines": {
     "node": ">=12",
