@@ -12,8 +12,10 @@
   }
   body {
     margin: 0;
-    background-color: #222;
+    color: #aeaeae;
     font-family: 'Courier New', Courier, monospace;
+    background: #17191c url(./bg.jpg) no-repeat center;
+    background-size: cover;
   }
   .container {
     display: flex;
@@ -22,11 +24,15 @@
     flex-direction: column;
   }
   .anchor {
-    color: #ccc;
+    color: #aeaeae;
     letter-spacing: 3px;
     font-size: 2rem;
     text-decoration: none;
     padding: 20px;
+  }
+  .anchor:hover {
+    text-decoration: underline;
+    text-decoration-color: #F04F52;
   }
   .text-hide {
     font: 0/0 a;
