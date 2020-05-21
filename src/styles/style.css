@@ -96,12 +96,15 @@ a:hover {
 }
 
 .footer__social {
-  margin-right: -5px;
+  margin-right: -7.5px;
 }
 
 .footer__social__anchor {
-  font-size: 20px;
+  width: 32px;
+  height: 32px;
+  font-size: 25px;
   padding: 0 5px;
+  margin: 0 2.5px;
   display: inline-block;
 }
 
