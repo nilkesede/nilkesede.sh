@@ -8,10 +8,10 @@ const IndexPage = () => (
   <div className="wrapper">
     <Head
       title="Nil Késede | Software Developer"
-      description="I'm a software developer with experience in web and mobile"
+      description={`A Software Developer focused on creating and contribute to high availability apps and improve the user experience with modern tech stacks.`}
       keywords="javascript, developer, development, web, mobile, full stack, nil, késede, kesede"
       uri="https://nilkesede.sh/"
-      image="/images/me@3x.webp"
+      image="https://nilkesede.sh/images/me@3x.webp"
     />
 
     <div className="container">

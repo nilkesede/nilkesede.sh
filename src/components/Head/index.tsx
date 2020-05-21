@@ -27,6 +27,8 @@ const Head = ({
     <meta name="twitter:description" content={description}/>
     <meta name="twitter:card" content="summary_large_image"/>
     <meta name="twitter:image" content={image}/>
+    <meta name="twitter:site" content="@nilkesede"/>
+    <meta name="twitter:creator" content="@nilkesede"/>
 
     <link rel="manifest" href="/manifest.json"/>
     <link rel="canonical" href={uri}/>
