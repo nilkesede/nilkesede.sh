@@ -10,8 +10,6 @@ const IndexPage = () => (
       title="Nil Késede | Software Developer"
       description={`A Software Developer focused on creating and contribute to high availability apps and improve the user experience with modern tech stacks.`}
       keywords="javascript, developer, development, web, mobile, full stack, nil, késede, kesede"
-      uri="https://nilkesede.sh/"
-      image="https://nilkesede.sh/images/me@3x.webp"
     />
 
     <div className="container">
@@ -24,6 +22,7 @@ const IndexPage = () => (
       />
 
       <h1 className="title">Hi, I'm Nil Késede!</h1>
+
       <p className="subtitle">
         A {age}yo Software Developer based in Fortaleza, Brazil, focused on creating and contribute to high availability apps and improve the user experience with modern tech stacks.
         <br/><br/>

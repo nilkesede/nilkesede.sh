@@ -6,9 +6,7 @@ const IndexPage = () => (
     <Head
       title="404 - Page not found | Nil Késede"
       description="404 - Page not found"
-      keywords="javascript, developer, development, web, mobile, full stack, nil, késede, kesede"
-      uri="https://nilkesede.sh/"
-      image="https://nilkesede.sh/images/me@3x.webp"
+      keywords="404"
     />
 
     <div className="container">
