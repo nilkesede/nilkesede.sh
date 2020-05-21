@@ -7,8 +7,8 @@ const year = new Date().getFullYear()
 const IndexPage = () => (
   <div className="wrapper">
     <Head
-      title="Home | Next.js + TypeScript Example"
-      description="I'm a software developer with experience in web and mobile"
+      title="404 - Page not found | Nil Késede"
+      description="404 - Page not found"
       keywords="javascript, developer, development, web, mobile, full stack, nil, késede, kesede"
       uri="https://nilkesede.sh/"
       image="https://www.gravatar.com/avatar/9a5a4ef32d505f64a4343653c214c9f8?s=1080"

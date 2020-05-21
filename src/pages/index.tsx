@@ -7,7 +7,7 @@ const year = new Date().getFullYear()
 const IndexPage = () => (
   <div className="wrapper">
     <Head
-      title="Home | Next.js + TypeScript Example"
+      title="Nil Késede | Software Developer"
       description="I'm a software developer with experience in web and mobile"
       keywords="javascript, developer, development, web, mobile, full stack, nil, késede, kesede"
       uri="https://nilkesede.sh/"
