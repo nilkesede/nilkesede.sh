@@ -1,7 +1,7 @@
 import NextHead from 'next/head'
 
 const uri = "https://nilkesede.sh/"
-const image = "https://nilkesede.sh/images/me.jpg"
+const image = "https://nilkesede.sh/images/me32.jpg"
 
 const Head = ({
   title,
