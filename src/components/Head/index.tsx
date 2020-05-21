@@ -31,7 +31,6 @@ const Head = ({
     <link rel="canonical" href={uri}/>
     <link rel="icon" href="/images/favicon.ico"/>
     <link rel="apple-touch-icon" href="/images/apple-touch-icon-180x180.png"/>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;700&display=swap"/>
     <link rel="preconnect" href="https://www.google-analytics.com"/>
   </NextHead>
 )
