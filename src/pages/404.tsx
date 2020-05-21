@@ -8,7 +8,7 @@ const IndexPage = () => (
       description="404 - Page not found"
       keywords="javascript, developer, development, web, mobile, full stack, nil, késede, kesede"
       uri="https://nilkesede.sh/"
-      image="https://www.gravatar.com/avatar/9a5a4ef32d505f64a4343653c214c9f8?s=1080"
+      image="/images/me.webp"
     />
 
     <div className="container">

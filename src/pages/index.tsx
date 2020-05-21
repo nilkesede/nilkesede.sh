@@ -11,11 +11,11 @@ const IndexPage = () => (
       description="I'm a software developer with experience in web and mobile"
       keywords="javascript, developer, development, web, mobile, full stack, nil, késede, kesede"
       uri="https://nilkesede.sh/"
-      image="https://www.gravatar.com/avatar/9a5a4ef32d505f64a4343653c214c9f8?s=1080"
+      image="/images/me.webp"
     />
 
     <div className="container">
-      <img src="https://www.gravatar.com/avatar/9a5a4ef32d505f64a4343653c214c9f8?s=600" alt="Nil Késede's avatar image" className="avatar" width="200"/>
+      <img src="/images/me.webp" alt="Nil Késede's avatar image" className="avatar" width="200"/>
       <h1 className="title">Hi, I'm Nil Késede!</h1>
       <p className="subtitle">
         A {age}yo Software Developer based in Fortaleza, Brazil, focused on creating and contribute to high availability apps and improve the user experience with modern tech stacks.
