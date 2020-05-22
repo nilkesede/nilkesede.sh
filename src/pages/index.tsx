@@ -1,8 +1,8 @@
 import Head from '../components/Head'
 import Footer from '../components/Footer'
 
-const calcAge = date => Math.abs(new Date(Date.now() - date).getFullYear() - 1970);
-const age = calcAge(new Date('94'))
+const calcAge = date => Math.abs(new Date(Date.now() - date).getFullYear() - 1970)
+const age = calcAge(new Date('1994'))
 
 const IndexPage = () => (
   <div className="wrapper">
