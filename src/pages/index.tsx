@@ -14,8 +14,8 @@ const IndexPage = () => (
 
     <div className="container">
       <img
-        srcSet="/images/me.webp, /images/me@2x.webp 2x, /images/me@3x.webp 3x"
-        src="/images/me.webp"
+        srcSet="/images/me.jpg, /images/me@2x.jpg 2x, /images/me@3x.jpg 3x"
+        src="/images/me.jpg"
         alt="Nil Késede's avatar image"
         width="200"
         className="avatar"
