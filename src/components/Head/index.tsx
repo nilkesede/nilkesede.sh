@@ -7,6 +7,10 @@ const Head = ({
   title,
   description,
   keywords
+}:{
+  title: string,
+  description: string,
+  keywords: string
 }) => (
   <NextHead>
     <title>{title}</title>

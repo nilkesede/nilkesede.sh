@@ -1,20 +1,19 @@
-import Head from '../components/Head'
-import Footer from '../components/Footer'
+import {Wrapper, Head, Container, Title, Footer} from '../components'
 
 const IndexPage = () => (
-  <div className="wrapper">
+  <Wrapper>
     <Head
       title="404 - Page not found | Nil Késede"
       description="404 - Page not found"
       keywords="404"
     />
 
-    <div className="container">
-      <h1 className="title">404 - Page not found</h1>
-    </div>
+    <Container>
+      <Title>404 - Page not found</Title>
+    </Container>
 
     <Footer/>
-  </div>
+  </Wrapper>
 )
 
 export default IndexPage
