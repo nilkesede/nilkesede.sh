@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;700&display=swap');
 
-* {
-  box-sizing: border-box;
-}
-
 @font-face {
   font-family: 'fontello';
   src: url('/fonts/fontello.eot?19436410');
@@ -14,6 +10,21 @@
   font-weight: normal;
   font-style: normal;
   font-display: swap;
+}
+
+@keyframes fadein {
+  0% {
+    opacity: 0;
+    transform: scale(.9);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+* {
+  box-sizing: border-box;
 }
 
 html, body, #__next{
@@ -32,6 +43,7 @@ body {
   background: #17191c url(/images/bg.jpg) no-repeat center;
   background-size: cover;
   text-align: left;
+  animation: fadein 1s ease;
 }
 
 a {
