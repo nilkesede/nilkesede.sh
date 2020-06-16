@@ -3,9 +3,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "test": "npm run type-check && npm run lint-check",
-    "type-check": "tsc",
-    "lint-check": "eslint ."
+    "test": "jest",
+    "lint": "tsc && eslint .",
+    "pre-push": "npm run lint && npm test"
   },
   "dependencies": {
     "next": "9.4.2",
@@ -16,6 +16,8 @@
     "styled-components": "5.1.1"
   },
   "devDependencies": {
+    "@testing-library/react": "10.2.1",
+    "@types/jest": "26.0.0",
     "@types/node": "14.0.4",
     "@types/react": "16.9.35",
     "@typescript-eslint/eslint-plugin": "3.0.0",
@@ -24,12 +26,14 @@
     "eslint": "7.0.0",
     "eslint-plugin-react": "7.20.0",
     "husky": "4.2.5",
+    "jest": "26.0.1",
+    "jest-styled-components": "7.0.2",
     "typescript": "3.9.3"
   },
   "private": true,
   "husky": {
     "hooks": {
-      "pre-push": "npm test"
+      "pre-push": "npm run pre-push"
     }
   }
 }
