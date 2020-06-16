@@ -1,16 +1,16 @@
 import NextHead from 'next/head'
 
-const uri = "https://nilkesede.sh/"
-const image = "https://nilkesede.sh/images/me32.jpg"
+const uri = 'https://nilkesede.sh/'
+const image = 'https://nilkesede.sh/images/me32.jpg'
 
 const Head = ({
   title,
   description,
   keywords
-}:{
-  title: string,
-  description: string,
-  keywords: string
+}: {
+  title: string;
+  description: string;
+  keywords: string;
 }) => (
   <NextHead>
     <title>{title}</title>
@@ -18,7 +18,7 @@ const Head = ({
     <meta name="keywords" content={keywords}/>
     <meta name="Author" content="Nil Késede"/>
 
-    <meta httpEquiv='X-UA-Compatible' content='IE=edge'/>
+    <meta httpEquiv="X-UA-Compatible" content="IE=edge"/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <meta name="theme-color" content="#222"/>
 

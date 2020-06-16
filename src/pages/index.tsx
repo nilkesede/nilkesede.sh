@@ -7,7 +7,7 @@ const IndexPage = () => (
   <Wrapper>
     <Head
       title="Nil Késede | Software Developer"
-      description={`A Software Developer focused on creating and contribute to high availability apps and improve the user experience with modern tech stacks.`}
+      description="A Software Developer focused on creating and contribute to high availability apps and improve the user experience with modern tech stacks."
       keywords="javascript, developer, development, web, mobile, full stack, nil, késede, kesede"
     />
 
@@ -21,10 +21,10 @@ const IndexPage = () => (
       <Title>Hi, I&#39;m Nil Késede!</Title>
 
       <Subtitle>
-        A {age}yo Software Developer based in Fortaleza, Brazil, focused on creating and contribute to high availability apps and improve the user experience with modern tech stacks.
-        <br/><br/>
-        I’m currently working at the Innovation Core of Casa Magalhães, a commercial automation company.
-        <br/><br/>
+        A {age}yo Software Developer based in Fortaleza, Brazil, focused on creating and contribute to high availability apps and improve the user experience with modern tech stacks.{/*
+        */}<br/><br/>{' '}
+        I’m currently working at the Innovation Core of Casa Magalhães, a commercial automation company.{/*
+        */}<br/><br/>{' '}
         Feel free to reach me out on social networks, or you can write to me through <a href="mailto:me@nilkesede.sh" target="_blank" rel="noopener noreferrer" title="email" className="anchor">me@nilkesede.sh</a>.
       </Subtitle>
     </Container>

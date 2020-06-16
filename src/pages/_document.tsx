@@ -1,24 +1,24 @@
 /* istanbul ignore file */
-import Document, { Html, Head, Main, NextScript } from 'next/document'
+import Document, {Html, Head, Main, NextScript} from 'next/document'
 import {ServerStyleSheet} from 'styled-components'
 
 class MyDocument extends Document {
-  static async getInitialProps(ctx) {
+  static async getInitialProps(context) {
     const sheet = new ServerStyleSheet()
-    const originalRenderPage = ctx.renderPage
+    const originalRenderPage = context.renderPage
 
     try {
-      ctx.renderPage = () => originalRenderPage({
-        enhanceApp: App => props => sheet.collectStyles(<App {...props}/>)
+      context.renderPage = () => originalRenderPage({
+        enhanceApp: App => properties => sheet.collectStyles(<App {...properties}/>)
       })
 
-      const initialProps = await Document.getInitialProps(ctx)
+      const initialProperties = await Document.getInitialProps(context)
 
       return {
-        ...initialProps,
+        ...initialProperties,
         styles: (
           <>
-            {initialProps.styles}
+            {initialProperties.styles}
             {sheet.getStyleElement()}
           </>
         )
@@ -31,10 +31,10 @@ class MyDocument extends Document {
   render() {
     return (
       <Html lang="en">
-        <Head />
+        <Head/>
         <body>
-          <Main />
-          <NextScript />
+          <Main/>
+          <NextScript/>
         </body>
       </Html>
     )

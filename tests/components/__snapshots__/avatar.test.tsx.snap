@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+.c0 {
+  width: 200px;
+  border-radius: 50%;
+  box-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+
+<div>
+  <img
+    alt="Nil Késede's avatar image"
+    class="c0"
+    src="/images/me.jpg"
+    srcset="/images/me.jpg, /images/me@2x.jpg 2x, /images/me@3x.jpg 3x"
+  />
+</div>
+`;

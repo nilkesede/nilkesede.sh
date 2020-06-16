@@ -1,8 +1,8 @@
-import {Container} from '../../src/components'
+import {Wrapper} from '../../src/components'
 
 import {render} from '../_helpers'
 
 it('renders correctly', () => {
-  const {container} = render(<Container />)
+  const {container} = render(<Wrapper/>)
   expect(container).toMatchSnapshot()
 })

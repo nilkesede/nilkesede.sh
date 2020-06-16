@@ -7,5 +7,5 @@ storiesOf('UI|Footer', module)
     <div style={{padding: '15px'}}>{story()}</div>
   )
   .add('default', () =>
-    <Footer />
+    <Footer/>
   )

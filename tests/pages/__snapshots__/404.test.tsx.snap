@@ -142,9 +142,11 @@ exports[`renders correctly 1`] = `
         yo Software Developer based in Fortaleza, Brazil, focused on creating and contribute to high availability apps and improve the user experience with modern tech stacks.
         <br />
         <br />
+         
         I’m currently working at the Innovation Core of Casa Magalhães, a commercial automation company.
         <br />
         <br />
+         
         Feel free to reach me out on social networks, or you can write to me through 
         <a
           class="anchor"
