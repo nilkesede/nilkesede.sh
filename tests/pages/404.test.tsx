@@ -1,6 +1,6 @@
 import Page404 from '../../src/pages'
 
-import {render} from '../utils'
+import {render} from '../_helpers'
 
 it('renders correctly', () => {
   const {container} = render(<Page404 />)

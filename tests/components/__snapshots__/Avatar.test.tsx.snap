@@ -9,7 +9,10 @@ exports[`renders correctly 1`] = `
 
 <div>
   <img
+    alt="Nil Késede's avatar image"
     class="c0"
+    src="/images/me.jpg"
+    srcset="/images/me.jpg, /images/me@2x.jpg 2x, /images/me@3x.jpg 3x"
   />
 </div>
 `;

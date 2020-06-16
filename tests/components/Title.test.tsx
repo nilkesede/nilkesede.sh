@@ -1,8 +1,8 @@
 import {Title} from '../../src/components'
 
-import {render} from '../utils'
+import {render} from '../_helpers'
 
 it('renders correctly', () => {
-  const {container} = render(<Title />)
+  const {container} = render(<Title>Hi, I&#39;m Nil Késede!</Title>)
   expect(container).toMatchSnapshot()
 })
