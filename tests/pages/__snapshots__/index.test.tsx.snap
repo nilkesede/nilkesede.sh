@@ -198,6 +198,19 @@ exports[`renders correctly 1`] = `
             
           </i>
         </a>
+        <a
+          class="c8"
+          href="https://twitter.com/nilkesede"
+          rel="noopener noreferrer"
+          target="_blank"
+          title="twitter"
+        >
+          <i
+            class="c9"
+          >
+            
+          </i>
+        </a>
       </div>
     </div>
   </div>

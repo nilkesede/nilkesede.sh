@@ -12,6 +12,9 @@ const Footer = () => (
       <Anchor href="https://github.com/nilkesede" title="github">
         <Icon>&#xf09b;</Icon>
       </Anchor>
+      <Anchor href="https://twitter.com/nilkesede" title="twitter">
+        <Icon>&#xf099;</Icon>
+      </Anchor>
     </Social>
   </Wrapper>
 )

@@ -80,6 +80,19 @@ exports[`renders correctly 1`] = `
           
         </i>
       </a>
+      <a
+        class="c3"
+        href="https://twitter.com/nilkesede"
+        rel="noopener noreferrer"
+        target="_blank"
+        title="twitter"
+      >
+        <i
+          class="c4"
+        >
+          
+        </i>
+      </a>
     </div>
   </div>
 </div>
