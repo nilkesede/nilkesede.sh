@@ -14,7 +14,7 @@ const IndexPage = () => (
           href="https://linkedin.com/in/nilkesede"
           title="linkedin"
           size="50"
-          space="10"
+          space="20"
         >
           <Icon>&#xf0e1;</Icon>
         </IconAnchor>
@@ -22,7 +22,7 @@ const IndexPage = () => (
           href="https://github.com/nilkesede"
           title="github"
           size="50"
-          space="10"
+          space="20"
         >
           <Icon>&#xf09b;</Icon>
         </IconAnchor>
@@ -30,7 +30,7 @@ const IndexPage = () => (
           href="https://twitter.com/nilkesede"
           title="twitter"
           size="50"
-          space="10"
+          space="20"
         >
           <Icon>&#xf099;</Icon>
         </IconAnchor>
