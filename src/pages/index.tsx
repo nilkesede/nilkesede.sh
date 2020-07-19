@@ -11,14 +11,6 @@ const IndexPage = () => (
     <Container>
       <div>
         <IconAnchor
-          href="https://linkedin.com/in/nilkesede"
-          title="linkedin"
-          size="50"
-          space="20"
-        >
-          <Icon>&#xf0e1;</Icon>
-        </IconAnchor>
-        <IconAnchor
           href="https://github.com/nilkesede"
           title="github"
           size="50"
@@ -33,6 +25,14 @@ const IndexPage = () => (
           space="20"
         >
           <Icon>&#xf099;</Icon>
+        </IconAnchor>
+        <IconAnchor
+          href="https://linkedin.com/in/nilkesede"
+          title="linkedin"
+          size="50"
+          space="20"
+        >
+          <Icon>&#xf0e1;</Icon>
         </IconAnchor>
       </div>
     </Container>

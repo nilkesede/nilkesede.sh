@@ -58,19 +58,6 @@ exports[`renders correctly 1`] = `
     >
       <a
         class="c3"
-        href="https://linkedin.com/in/nilkesede"
-        rel="noopener noreferrer"
-        target="_blank"
-        title="linkedin"
-      >
-        <i
-          class="c4"
-        >
-          
-        </i>
-      </a>
-      <a
-        class="c3"
         href="https://github.com/nilkesede"
         rel="noopener noreferrer"
         target="_blank"
@@ -93,6 +80,19 @@ exports[`renders correctly 1`] = `
           class="c4"
         >
           
+        </i>
+      </a>
+      <a
+        class="c3"
+        href="https://linkedin.com/in/nilkesede"
+        rel="noopener noreferrer"
+        target="_blank"
+        title="linkedin"
+      >
+        <i
+          class="c4"
+        >
+          
         </i>
       </a>
     </div>
