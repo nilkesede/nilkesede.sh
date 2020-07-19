@@ -1,19 +1,21 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`renders correctly 1`] = `
-.c3 {
-  width: 32px;
-  height: 32px;
-  font-size: 25px;
-  padding: 0 5px;
-  margin: 0 2.5px;
-  display: inline-block;
-}
-
 .c4 {
   font-family: 'fontello',sans-serif;
   font-style: normal;
   font-weight: normal;
+}
+
+.c3 {
+  width: 25px;
+  height: 25px;
+  font-size: 25px;
+  padding: 0;
+  margin: 0 10px;
+  display: inline-block;
+  line-height: 1;
+  text-align: center;
 }
 
 .c0 {

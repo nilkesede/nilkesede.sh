@@ -49,7 +49,7 @@ body {
 a {
   color: #B6C0CE;
   text-decoration: none;
-  transition: color .2s ease;
+  transition: color .5s ease;
 }
 
 a:hover {
