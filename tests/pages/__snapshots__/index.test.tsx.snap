@@ -1,22 +1,18 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`renders correctly 1`] = `
-.c2 {
-  width: 200px;
-  border-radius: 50%;
-  box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
-}
-
-.c1 {
+.c0 {
   max-width: 1140px;
+  min-height: 100vh;
+  margin: 0 auto;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-align-items: flex-start;
-  -webkit-box-align: flex-start;
-  -ms-flex-align: flex-start;
-  align-items: flex-start;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -24,193 +20,40 @@ exports[`renders correctly 1`] = `
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
-  padding: 30px;
   -webkit-box-flex: 1;
   -webkit-flex-grow: 1;
   -ms-flex-positive: 1;
   flex-grow: 1;
 }
 
-.c7 {
-  line-height: 1;
-  font-size: 25px;
-  margin-left: 15px;
-  display: inline-block;
-  margin-left: 0;
-}
-
-.c9 {
-  line-height: 1;
-  font-size: 25px;
-  margin-left: 15px;
-  display: inline-block;
-}
-
-.c8 {
-  font-family: 'fontello',sans-serif;
-  font-style: normal;
-  font-weight: normal;
-}
-
-.c5 {
-  width: 100%;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  border-top: 1px solid rgba(255,255,255,0.1);
-  margin-top: 50px;
-  padding: 20px 30px;
-}
-
-.c6 {
-  font-size: 12px;
-  line-height: 1;
-}
-
-.c4 {
-  margin: 0;
-}
-
-.c3 {
-  color: #ffffff;
-  font-size: 32px;
-  margin: 30px 0;
-}
-
-.c0 {
-  width: 100%;
-  min-height: 100vh;
-  margin: 0;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-}
-
-@media (min-width:768px) {
-  .c4 {
-    font-size: 24px;
-  }
-}
-
-@media (min-width:768px) {
-  .c3 {
-    font-size: 42px;
-    margin: 50px 0;
-  }
-}
-
 <div>
   <div
     class="c0"
   >
-    <div
-      class="c1"
-    >
-      <img
-        alt="Nil Késede's avatar image"
-        class="c2"
-        src="/images/me.jpg"
-        srcset="/images/me.jpg, /images/me@2x.jpg 2x, /images/me@3x.jpg 3x"
-      />
-      <h1
-        class="c3"
-      >
-        Hi, I'm Nil Késede!
-      </h1>
-      <p
-        class="c4"
-      >
-        A Software Developer based in Fortaleza, Brazil, focused on creating and contribute to high availability apps and improve the user experience with modern tech stacks.
-        <br />
-        <br />
-         
-        I’m currently working at the Casa Magalhães's Innovation Core, a commercial automation company.
-        <br />
-        <br />
-         
-        Feel free to reach me out on social networks, or you can write to me through 
-        <a
-          class="anchor"
-          href="mailto:me@nilkesede.sh"
-          rel="noopener noreferrer"
-          target="_blank"
-          title="email"
-        >
-          me@nilkesede.sh
-        </a>
-        .
-      </p>
-    </div>
-    <div
-      class="c5"
-    >
+    <div>
       <div
-        class="c6"
+        class="undefined"
       >
-        Nil Késede © 
-        2020
-      </div>
-      <div>
-        <a
-          class="c7"
-          href="https://linkedin.com/in/nilkesede"
-          rel="noopener noreferrer"
-          target="_blank"
-          title="linkedin"
-        >
-          <i
-            class="c8"
+        <div>
+          <span />
+          <span />
+          <span />
+        </div>
+        <div>
+          <a
+            href="https://github.com/nilkesede"
           >
-            
-          </i>
-        </a>
-        <a
-          class="c9"
-          href="https://github.com/nilkesede"
-          rel="noopener noreferrer"
-          target="_blank"
-          title="github"
-        >
-          <i
-            class="c8"
-          >
-            
-          </i>
-        </a>
-        <a
-          class="c9"
-          href="https://twitter.com/nilkesede"
-          rel="noopener noreferrer"
-          target="_blank"
-          title="twitter"
-        >
-          <i
-            class="c8"
-          >
-            
-          </i>
-        </a>
+            <div
+              duration="500"
+            >
+              <span>
+                ~ 
+              </span>
+              
+              <span />
+            </div>
+          </a>
+        </div>
       </div>
     </div>
   </div>
