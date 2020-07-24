@@ -1,8 +1,5 @@
 import {Wrapper, Head, Container, Avatar, Title, Subtitle, Footer} from '../components'
 
-const calcAge = date => Math.abs(new Date(Date.now() - date).getFullYear() - 1970)
-const age = calcAge(new Date('1994'))
-
 const IndexPage = () => (
   <Wrapper>
     <Head
@@ -21,9 +18,9 @@ const IndexPage = () => (
       <Title>Hi, I&#39;m Nil Késede!</Title>
 
       <Subtitle>
-        A {age}yo Software Developer based in Fortaleza, Brazil, focused on creating and contribute to high availability apps and improve the user experience with modern tech stacks.{/*
+        A Software Developer based in Fortaleza, Brazil, focused on creating and contribute to high availability apps and improve the user experience with modern tech stacks.{/*
         */}<br/><br/>{' '}
-        I’m currently working at the Innovation Core of Casa Magalhães, a commercial automation company.{/*
+        I’m currently working at the Casa Magalhães&#39;s Innovation Core, a commercial automation company.{/*
         */}<br/><br/>{' '}
         Feel free to reach me out on social networks, or you can write to me through <a href="mailto:me@nilkesede.sh" target="_blank" rel="noopener noreferrer" title="email" className="anchor">me@nilkesede.sh</a>.
       </Subtitle>

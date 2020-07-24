@@ -6,7 +6,7 @@ const Container = styled.div`
   align-items: flex-start;
   justify-content: center;
   flex-direction: column;
-  padding: 50px 30px 30px;
+  padding: 30px;
   flex-grow: 1;
 `
 

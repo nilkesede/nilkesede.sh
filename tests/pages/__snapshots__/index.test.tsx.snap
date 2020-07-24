@@ -4,7 +4,7 @@ exports[`renders correctly 1`] = `
 .c2 {
   width: 200px;
   border-radius: 50%;
-  box-shadow: 0 0 5px rgba(0,0,0,0.5);
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
 }
 
 .c1 {
@@ -24,23 +24,29 @@ exports[`renders correctly 1`] = `
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
-  padding: 50px 30px 30px;
+  padding: 30px;
   -webkit-box-flex: 1;
   -webkit-flex-grow: 1;
   -ms-flex-positive: 1;
   flex-grow: 1;
 }
 
-.c8 {
-  width: 32px;
-  height: 32px;
+.c7 {
+  line-height: 1;
   font-size: 25px;
-  padding: 0 5px;
-  margin: 0 2.5px;
+  margin-left: 15px;
   display: inline-block;
+  margin-left: 0;
 }
 
 .c9 {
+  line-height: 1;
+  font-size: 25px;
+  margin-left: 15px;
+  display: inline-block;
+}
+
+.c8 {
   font-family: 'fontello',sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -56,19 +62,18 @@ exports[`renders correctly 1`] = `
   -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
   justify-content: space-between;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
   border-top: 1px solid rgba(255,255,255,0.1);
-  background-clip: padding-box;
   margin-top: 50px;
   padding: 20px 30px;
-  overflow: hidden;
 }
 
 .c6 {
   font-size: 12px;
-}
-
-.c7 {
-  margin-right: -7.5px;
+  line-height: 1;
 }
 
 .c4 {
@@ -76,8 +81,8 @@ exports[`renders correctly 1`] = `
 }
 
 .c3 {
-  font-size: 32px;
   color: #ffffff;
+  font-size: 32px;
   margin: 30px 0;
 }
 
@@ -105,14 +110,13 @@ exports[`renders correctly 1`] = `
 @media (min-width:768px) {
   .c4 {
     font-size: 24px;
-    line-height: 42px;
   }
 }
 
 @media (min-width:768px) {
   .c3 {
-    font-size: 48px;
-    margin: 75px 0;
+    font-size: 42px;
+    margin: 50px 0;
   }
 }
 
@@ -137,13 +141,11 @@ exports[`renders correctly 1`] = `
       <p
         class="c4"
       >
-        A 
-        26
-        yo Software Developer based in Fortaleza, Brazil, focused on creating and contribute to high availability apps and improve the user experience with modern tech stacks.
+        A Software Developer based in Fortaleza, Brazil, focused on creating and contribute to high availability apps and improve the user experience with modern tech stacks.
         <br />
         <br />
          
-        I’m currently working at the Innovation Core of Casa Magalhães, a commercial automation company.
+        I’m currently working at the Casa Magalhães's Innovation Core, a commercial automation company.
         <br />
         <br />
          
@@ -169,44 +171,42 @@ exports[`renders correctly 1`] = `
         Nil Késede © 
         2020
       </div>
-      <div
-        class="c7"
-      >
+      <div>
         <a
-          class="c8"
+          class="c7"
           href="https://linkedin.com/in/nilkesede"
           rel="noopener noreferrer"
           target="_blank"
           title="linkedin"
         >
           <i
-            class="c9"
+            class="c8"
           >
             
           </i>
         </a>
         <a
-          class="c8"
+          class="c9"
           href="https://github.com/nilkesede"
           rel="noopener noreferrer"
           target="_blank"
           title="github"
         >
           <i
-            class="c9"
+            class="c8"
           >
             
           </i>
         </a>
         <a
-          class="c8"
+          class="c9"
           href="https://twitter.com/nilkesede"
           rel="noopener noreferrer"
           target="_blank"
           title="twitter"
         >
           <i
-            class="c9"
+            class="c8"
           >
             
           </i>

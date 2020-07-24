@@ -1,16 +1,22 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`renders correctly 1`] = `
-.c3 {
-  width: 32px;
-  height: 32px;
+.c2 {
+  line-height: 1;
   font-size: 25px;
-  padding: 0 5px;
-  margin: 0 2.5px;
+  margin-left: 15px;
   display: inline-block;
+  margin-left: 0;
 }
 
 .c4 {
+  line-height: 1;
+  font-size: 25px;
+  margin-left: 15px;
+  display: inline-block;
+}
+
+.c3 {
   font-family: 'fontello',sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -26,19 +32,18 @@ exports[`renders correctly 1`] = `
   -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
   justify-content: space-between;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
   border-top: 1px solid rgba(255,255,255,0.1);
-  background-clip: padding-box;
   margin-top: 50px;
   padding: 20px 30px;
-  overflow: hidden;
 }
 
 .c1 {
   font-size: 12px;
-}
-
-.c2 {
-  margin-right: -7.5px;
+  line-height: 1;
 }
 
 <div>
@@ -51,44 +56,42 @@ exports[`renders correctly 1`] = `
       Nil Késede © 
       2020
     </div>
-    <div
-      class="c2"
-    >
+    <div>
       <a
-        class="c3"
+        class="c2"
         href="https://linkedin.com/in/nilkesede"
         rel="noopener noreferrer"
         target="_blank"
         title="linkedin"
       >
         <i
-          class="c4"
+          class="c3"
         >
           
         </i>
       </a>
       <a
-        class="c3"
+        class="c4"
         href="https://github.com/nilkesede"
         rel="noopener noreferrer"
         target="_blank"
         title="github"
       >
         <i
-          class="c4"
+          class="c3"
         >
           
         </i>
       </a>
       <a
-        class="c3"
+        class="c4"
         href="https://twitter.com/nilkesede"
         rel="noopener noreferrer"
         target="_blank"
         title="twitter"
       >
         <i
-          class="c4"
+          class="c3"
         >
           
         </i>

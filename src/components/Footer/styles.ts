@@ -4,12 +4,11 @@ const Anchor = styled.a.attrs({
   target: '_blank',
   rel: 'noopener noreferrer'
 })`
-  width: 32px;
-  height: 32px;
+  line-height: 1;
   font-size: 25px;
-  padding: 0 5px;
-  margin: 0 2.5px;
+  margin-left: 15px;
   display: inline-block;
+  ${props => props.first && 'margin-left: 0;'}
 `
 
 const Icon = styled.i`
@@ -22,25 +21,20 @@ const Wrapper = styled.div`
   width: 100%;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   border-top: 1px solid rgba(255, 255, 255, 0.1);
-  background-clip: padding-box;
   margin-top: 50px;
   padding: 20px 30px;
-  overflow: hidden;
 `
 
 const Sign = styled.div`
   font-size: 12px;
-`
-
-const Social = styled.div`
-  margin-right: -7.5px;
+  line-height: 1;
 `
 
 export {
   Anchor,
   Icon,
   Wrapper,
-  Sign,
-  Social
+  Sign
 }
