@@ -61,8 +61,7 @@ const Terminal = () => {
         <div className={styles.body}>
           <a href="https://github.com/nilkesede">{renderLine('# github.com/nilkesede')}</a>
           {lineCount >= 1 && <a href="https://linkedin.com/in/nilkesede/">{renderLine('# linkedin.com/in/nilkesede')}</a>}
-          {lineCount >= 2 && <a href="https://twitter.com/nilkesede">{renderLine('# twitter.com/nilkesede')}</a>}
-          {lineCount >= 3 && <Line text=""/>}
+          {lineCount >= 2 && <Line text=""/>}
         </div>
       </div>
     </div>
