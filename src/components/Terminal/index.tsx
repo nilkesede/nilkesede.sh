@@ -59,8 +59,8 @@ const Terminal = () => {
           <span className={styles.icon}/>
         </div>
         <div className={styles.body}>
-          <a href="https://github.com/nilkesede">{renderLine('# github.com/nilkesede')}</a>
-          {lineCount >= 1 && <a href="https://linkedin.com/in/nilkesede/">{renderLine('# linkedin.com/in/nilkesede')}</a>}
+          <a href="https://github.com/nilkesede" target="_blank" rel="noreferrer">{renderLine('# github.com/nilkesede')}</a>
+          {lineCount >= 1 && <a href="https://linkedin.com/in/nilkesede/" target="_blank" rel="noreferrer">{renderLine('# linkedin.com/in/nilkesede')}</a>}
           {lineCount >= 2 && <Line text=""/>}
         </div>
       </div>
